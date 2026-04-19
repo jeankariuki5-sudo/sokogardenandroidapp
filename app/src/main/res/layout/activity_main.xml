@@ -55,5 +55,18 @@
 
     </LinearLayout>
 
+<!--    Below is out progress bar-->
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar"/>
+
+<!--    Below is our recycler view-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/single_item"
+        android:id="@+id/recyclerview"/>
+
 
 </LinearLayout>
