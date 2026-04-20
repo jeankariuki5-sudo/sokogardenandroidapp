@@ -31,10 +31,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="👤 Sign Up"
-            android:textSize="30sp"
+            android:layout_weight="1"
+            android:textSize="25sp"
             android:padding="10dp"
             android:fontFamily="cursive"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="4dp"
             android:layout_marginTop="8dp"
             android:textColor="#E1CDD8"
             android:backgroundTint="#18421B"
@@ -43,15 +44,31 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="👮 Sign In"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:padding="10dp"
             android:fontFamily="cursive"
-            android:layout_marginLeft="30dp"
+            android:layout_marginLeft="4dp"
             android:layout_marginTop="8dp"
             android:textColor="#E1CDD8"
             android:backgroundTint="#18421B"
             android:id="@+id/signinBtn" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="📜 About"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:fontFamily="cursive"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="8dp"
+            android:textColor="#E1CDD8"
+            android:backgroundTint="#18421B"
+            android:id="@+id/aboutBtn" />
+
 
 
     </LinearLayout>
@@ -61,6 +78,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/progressbar"/>
+
+
+
 
 <!--    Below is our recycler view-->
     <androidx.recyclerview.widget.RecyclerView
