@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#FFD88A"
+    android:id="@+id/main"
     tools:context=".PaymentActivity">
 
     <!--    Below is a Text View -->

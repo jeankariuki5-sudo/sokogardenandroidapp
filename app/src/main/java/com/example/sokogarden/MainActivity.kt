@@ -38,27 +38,22 @@ class MainActivity : AppCompatActivity() {
         }
 
         // find the recyclerView and the progress bar by use of their IDs
-
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerview)
-
         val progressbar = findViewById<ProgressBar>(R.id.progressbar)
 
 
 
 //specify the API URL endpoint for fetching the products (alwaysData)
-
         val url = "https://kbenkamotho.alwaysdata.net/api/get_products"
 
 
 
 // import the helper class
-
         val helper = ApiHelper(applicationContext)
 
 
 
 //inside of the helper class, access the function loadproducts
-
         helper.loadProducts(url, recyclerView, progressbar)
     }
 }
